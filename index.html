@@ -99,7 +99,6 @@
         //   unityInstance.Module.WebXR.toggleAR();
         // }, false);
         enterVRButton.addEventListener('click', function (event) {
-          unityInstance.SendMessage('GameManager', 'ToggleVR');
           unityInstance.Module.WebXR.toggleVR();
         }, false);
       }
